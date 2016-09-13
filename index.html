@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mi primer Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="CSS/reset.css">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+<body class="contenedor">
+	<header>
+		<div class="primero">
+			<div class="texto">
+				<h3 class="nombre">Nombre Apellido</h3>
+			</div>
+			<nav class="menu">
+				<ul class="lista">
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="imagen">
+			<div class="icono">
+				<img src="C:/Users/Santi/Documents/CODERHOUSE/Workshop/img/me.png">
+			</div>
+			<div class="name">
+				<h1>Nombre Apellido</h1>
+				<div class="estrella">
+					<hr>
+					<span class="ion-star"></span>
+					<hr>
+				</div>
+				<h5>Frontend Developer</h5>
+			</div>
+		</div>
+	</header>
+	<section class="portfolio">
+		<div class="solo-mobile">
+			<a href="#"><span class="ion-chevron-up"></span></a>
+		</div>
+		<h2>Portfolio</h2>
+		<div class="estrella">
+			<hr>
+			<span class="ion-star"></span>
+			<hr>
+		</div>
+		<ul class="fotos">
+			<li class="hvr-sweep-to-top"><img src="C:/Users/Santi/Documents/CODERHOUSE/Workshop/img/5.png"></li>
+			<li class="hvr-sweep-to-top"><img src="C:/Users/Santi/Documents/CODERHOUSE/Workshop/img/2.png"></li>
+			<li class="hvr-sweep-to-top"><img src="C:/Users/Santi/Documents/CODERHOUSE/Workshop/img/6.png"></li>
+			<li class="hvr-sweep-to-top"><img src="C:/Users/Santi/Documents/CODERHOUSE/Workshop/img/3.png"></li>
+			<li class="hvr-sweep-to-top"><img src="C:/Users/Santi/Documents/CODERHOUSE/Workshop/img/4.png"></li>
+			<li class="hvr-sweep-to-top"><img src="C:/Users/Santi/Documents/CODERHOUSE/Workshop/img/1.png"></li>
+		</ul>
+	</section>
+
+	<section class="about">
+		<h2>About</h2>
+		<div class="estrella">
+			<hr>
+			<span class="ion-star"></span>
+			<hr>
+		</div>
+		<div class="parrafos">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			<p class="esconder">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+	</section>
+
+	<section class="contact">
+		<h2>Contact me</h2>
+		<div class="estrella">
+			<hr>
+			<span class="ion-star"></span>
+			<hr>
+		</div>
+
+		<form method="POST" action="enviar.php">
+			<label for="name"></label>
+			<input class="nombre" name="name" placeholder="Name" type="text">
+			<label for="email"></label>
+			<input class="mail" name="email" placeholder="Email Address" type="email">
+			<label for="telefono"></label>
+			<input class="tel" name="telefono" placeholder="Phone Number" type="tel">
+			<label for="mensaje"></label>
+			<textarea class="mensaje" name="mensaje" placeholder="Message" ></textarea>
+			<input class="boton" type="submit" value="Send">
+		</form>
+	</section>
+
+	<footer>
+		<div class="claro">
+			<div class="location">
+				<h5>Location</h5>
+				<p>3841 Melrose Place</p>
+				<p>Beverly Hills, CA 90210</p>
+			</div>
+			<nav class="social">
+			<h5>Around the web</h5>
+			<ul>
+				<li><a href="#"><span class="ion-social-facebook"></span></a></li>
+				<li><a href="#"><span class="ion-social-googleplus"></span></a></li>
+				<li><a href="#"><span class="ion-social-twitter"></span></a></li>
+				<li><a href="#"><span class="ion-social-linkedin"></span></a></li>
+				<li><a href="#"><span class="ion-social-dribbble-outline"></span></a></li>
+			</ul>
+			</nav>
+		</div>
+		<div class="oscuro">
+			<h5>Copyright © Your Website 2014</h5>
+		</div>	
+	</footer>
+
+</body>
+</html>
